@@ -1,5 +1,8 @@
-$color-background: oldlace;
+$color-background: pink;
+
+@import "partials/toc";
  
 body {
     background: $color-background;
 }
+
