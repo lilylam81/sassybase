@@ -1,8 +1,18 @@
-$color-background: pink;
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
 
+// VARIABLES
+$color-text-body: rgba(0,0,0,0.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: rgba(0,155,0,1);
+$color-accent-dark: rgba(0,102,0,1);
+
+$color-lightgrey: rgba(0,0,0,0.5);
+
+$font-family-sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-serif: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+
+// IMPORTS
 @import "partials/toc";
- 
-body {
-    background: $color-background;
-}
-
+@import "partials/typography";
+@import "partials/buttons";
