@@ -99,6 +99,19 @@ hr {
   margin: 0.25em 0;
 }
 
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 5px solid rgb(0, 155, 0);
+  display: table;
+  padding: 0 0 0.5em 0;
+  margin: 1em auto 3em auto;
+}
+
 /*  BUTTONS */
 .button {
   display: inline-block;
@@ -233,4 +246,76 @@ body {
 .demo .row > * {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1%;
+}
+
+/* SITE STRUCTURE */
+/* SITE HEADER */
+.site-header {
+  background: rgb(0, 102, 0);
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+.site-header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/*  SITE FOOTER */
+.site-footer {
+  background: rgb(0, 102, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SITE NAV */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+/* HERO SECTION */
+.hero {
+  background: rgb(176, 223, 176);
+  text-align: center;
+  padding: 6em 0;
+}
+.hero h1 {
+  margin-bottom: 0.25em;
+}
+.hero p {
+  margin: 1em auto;
 }
